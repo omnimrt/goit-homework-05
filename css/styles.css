@@ -611,6 +611,7 @@ img {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-btn-icon {
@@ -620,7 +621,7 @@ img {
 
 .modal-btn-icon:hover,
 .modal-btn-icon:focus {
-  stroke: #fff;
+  fill: #fff;
 }
 
 .modal-title {
@@ -722,6 +723,11 @@ img {
   align-items: center;
   padding-top: 16px;
   padding-bottom: 24px;
+}
+
+.user-privacy-check {
+  display: inline-flex;
+  fill: transparent;
 }
 
 .user-privacy-link {
